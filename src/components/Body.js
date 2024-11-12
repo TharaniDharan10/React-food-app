@@ -96,7 +96,7 @@ const Body = () => {
           {" "}
           {categoryMenu && <CategoryMenu categoryMenu={categoryMenu} />}
           <h1 className="main-content-text">
-            Restaurants with online food delivery in Bangalore
+            Restaurants with online food delivery
           </h1>
           <div className="restaurant-lists">
             {filteredRestaurants.map((restaurant) => (

@@ -7,13 +7,6 @@ const Footer = () => {
       <p data-testid="footer-logo" className="paragraph colwhite">
         Go Foods.
       </p>
-      <p className="paragraph colwhite">
-        Developed by Tejash{" "}
-        <a href="https://github.com/tejash023">
-          {" "}
-          <FiGithub color="white" size="1rem" to="/about" />{" "}
-        </a>
-      </p>
       <ul>
         <NavLink to="/">
           <li>Home</li>
