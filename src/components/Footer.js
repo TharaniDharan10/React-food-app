@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <p data-testid="footer-logo" className="paragraph colwhite">
-        Go Foods.
+        Topoto
       </p>
       <ul>
         <NavLink to="/">

@@ -6,6 +6,9 @@
   padding: 0;
 }
 
+html,body{
+  background: rgb(205, 194, 194);
+}
 #root {
   padding-top: 80px;
 }

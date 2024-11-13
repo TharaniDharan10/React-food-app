@@ -34,10 +34,11 @@ const OrderSummary = lazy(() => import("./pages/OrderSummary"));
 const AppLayout = () => {
   return (
     <Provider store={store}>
-      <ScrollRestoration />
       <Header />
-      <Outlet />
       <Footer />
+      <ScrollRestoration />
+
+      <Outlet />
     </Provider>
   );
 };
